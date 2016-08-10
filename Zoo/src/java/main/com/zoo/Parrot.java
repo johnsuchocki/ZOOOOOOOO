@@ -1,0 +1,21 @@
+package com.zoo;
+
+public class Parrot extends Bird {
+
+	String says = "Polly want a cracker";
+
+	public Parrot(boolean isAlive, boolean isEndangered, String enclosureType, String habitat, boolean migrates,
+			boolean flies, String says) {
+		super(isAlive, isEndangered, enclosureType, habitat, false, true);
+		this.says = says;
+	}
+
+	public String getSays() {
+		return says;
+	}
+
+	public void setSays(String says) {
+		this.says = says;
+	}
+		
+}

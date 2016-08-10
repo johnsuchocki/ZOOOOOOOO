@@ -1,0 +1,21 @@
+package com.zoo;
+
+public class Reptile extends Animal {
+
+	boolean currentlyBaskingInSun = true;
+
+	public Reptile(boolean isAlive, boolean isEndangered, String enclosureType, String habitat,
+			boolean currentlyBaskingInSun) {
+		super(isAlive, isEndangered, enclosureType, "terrarium");
+		this.currentlyBaskingInSun = currentlyBaskingInSun;
+	}
+
+	public boolean isCurrentlyBaskingInSun() {
+		return currentlyBaskingInSun;
+	}
+
+	public void setCurrentlyBaskingInSun(boolean currentlyBaskingInSun) {
+		this.currentlyBaskingInSun = currentlyBaskingInSun;
+	}
+	
+}

@@ -1,0 +1,76 @@
+package com.zoo;
+
+import java.util.ArrayList;
+
+public class Zoo {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Animal> zooInhabitants = new ArrayList<>();
+		
+		Human littleTimmy = new Human(true, true, "none", "everywhere", true, false, "brown hair", true, "visitor");
+		Human irresponsibleMother = new Human(true, false, "none", "everywhere", true, false, "brown hair", false, "visitor");
+		Human bob = new Human(true, false, "none", "everywhere", true, false, "red hair", false, "zoo keeper");
+		
+		zooInhabitants.add(littleTimmy); //0
+		zooInhabitants.add(irresponsibleMother); //1
+		zooInhabitants.add(bob); //2
+		
+		Gorilla harumbe = new Gorilla(false, true, "cage", "jungle", true, false, "black", "western lowlands Silverback");
+		
+		zooInhabitants.add(harumbe); //3
+		
+		Lion simba = new Lion(true, false, "cage", "savanah", true, false, "golden yellow", "roar");
+		Lion mufasa = new Lion(false, false, "cage", "savanah", true, false, "golden yellow", "ROARRR");
+		Lion scar = new Lion(false, false, "cage", "bone yard", true, false, "red", "mwahahaha");
+		
+		zooInhabitants.add(simba); //4
+		zooInhabitants.add(mufasa); //5
+		zooInhabitants.add(scar); //6
+		
+		Platypus plato = new Platypus(true, false, "cage", "wetlands", false, true, "black", true);
+		
+		zooInhabitants.add(plato); //7
+		
+		Squirrel sandy = new Squirrel(true, false, "none", "woodlands", true, false, "brown", true);
+		Squirrel sam = new Squirrel(true, false, "none", "woodlands", false, false, "black", true);
+		
+		zooInhabitants.add(sandy); //8
+		zooInhabitants.add(sam); //9
+		
+		Frog tad = new Frog(true, false, "pond", "ponds", true, "tadpole");
+		Frog pollie = new Frog(true, false, "pond", "ponds", true, "polliwog"); 
+		Frog frank = new Frog(true, false, "pond", "ponds", false, "adult frog");
+		
+		zooInhabitants.add(tad); //10
+		zooInhabitants.add(pollie); //11
+		zooInhabitants.add(frank); //12
+		
+		Snake py = new Snake(true, false, "terrarium", "woodlands", true, false);
+		Snake vold = new Snake(true, false, "terrarium", "woodlands", false, true);
+		
+		zooInhabitants.add(py); //13
+		zooInhabitants.add(vold); //14
+		
+		Lizard liz = new Lizard(true, false, "terrarium", "jungle", true, true);
+		
+		zooInhabitants.add(liz); //15
+		
+		Duck donald = new Duck(true, false, "cage", "ponds", true, true, true);
+		
+		zooInhabitants.add(donald); //16
+		
+		Parrot polly = new Parrot(true, false, "cage", "jungle", false, true, "Polly want a cracker");
+		Parrot paul = new Parrot(true, false, "cage", "jungle", false, true, "Shut up Polly");
+		
+		zooInhabitants.add(polly); //17
+		zooInhabitants.add(paul); //18
+		
+		Penguin happyFeet = new Penguin(true, false, "aquarium", "Antarctica", true, false, true);
+		
+		zooInhabitants.add(happyFeet); //19
+	
+		System.out.println("Little Timmy came to the zoo as a " + zooInhabitants.get(0).);
+		
+	}
+}

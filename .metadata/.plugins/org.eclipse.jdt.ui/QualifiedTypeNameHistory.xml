@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.zoo.Human"/>
+<fullyQualifiedTypeName name="com.zoo.Gorilla"/>
+<fullyQualifiedTypeName name="com.zoo.Lion"/>
+<fullyQualifiedTypeName name="com.zoo.Platypus"/>
+<fullyQualifiedTypeName name="com.zoo.Squirrel"/>
+<fullyQualifiedTypeName name="com.zoo.Frog"/>
+<fullyQualifiedTypeName name="com.zoo.Snake"/>
+<fullyQualifiedTypeName name="com.zoo.Lizard"/>
+<fullyQualifiedTypeName name="com.zoo.Duck"/>
+<fullyQualifiedTypeName name="com.zoo.Parrot"/>
+<fullyQualifiedTypeName name="com.zoo.Penguin"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.zoo.Amphibian"/>
+</qualifiedTypeNameHistroy>

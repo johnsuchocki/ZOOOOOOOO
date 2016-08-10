@@ -1,0 +1,32 @@
+package com.zoo;
+
+public class Human extends Mammal {
+
+	boolean isChild = false;
+	protected String role = "visitor";
+	
+	public Human(boolean isAlive, boolean isEndangered, String enclosureType, String habitat, boolean liveBirth,
+			boolean isVenomous, String furColor, boolean isChild, String role) {
+		super(isAlive, isEndangered, "none", "everywhere", true, false, furColor);
+		this.isChild = isChild;
+		this.role = role;
+	}
+
+	public boolean isChild() {
+		return isChild;
+	}
+
+	public void setChild(boolean isChild) {
+		this.isChild = isChild;
+	}
+
+	public String getRole() {
+		return role;
+	}
+
+	public void setRole(String role) {
+		this.role = role;
+	}
+
+	
+}

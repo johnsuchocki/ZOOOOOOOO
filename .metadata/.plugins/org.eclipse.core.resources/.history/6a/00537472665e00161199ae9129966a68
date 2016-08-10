@@ -1,0 +1,23 @@
+package com.zoo;
+
+public class Zoo {
+
+	public static void main(String[] args) {
+		
+		Human littleTimmy = new Human(true, true, "none", "everywhere", true, false, "brown hair", true, "visitor");
+		Human irresponsibleMother = new Human(true, false, "none", "everywhere", true, false, "brown hair", false, "visitor");
+		Human bob = new Human(true, false, "none", "everywhere", true, false, "red hair", false, "zoo keeper");
+		
+		Gorilla harumbe = new Gorilla(false, true, "cage", "jungle", true, false, "black", "western lowlands Silverback");
+		
+		Lion simba = new Lion(true, false, "cage", "savanah", true, false, "golden yellow", "roar");
+		Lion mufasa = new Lion(false, false, "cage", "savanah", true, false, "golden yellow", "");
+		Lion scar = new Lion(true, false, "cage", "bone yard", true, false, "red", "ROARRR");
+		
+		Platypus plato = new Platypus(true, false, "cage", "wetlands", false, true, "black", true);
+		
+		Squirrel sandy = new Squirrel(true, false, "none", "woodlands", true, false, "brown", true);
+		
+		
+	}
+}

@@ -1,0 +1,51 @@
+package com.zoo;
+
+public abstract class Animal {
+
+	boolean isAlive = true;
+	boolean isEndangered = false;
+	String enclosureType = "cage";
+	String habitat = null;
+	
+	public Animal(boolean isAlive, boolean isEndangered, String enclosureType, String habitat) {
+		this.isAlive = isAlive;
+		this.isEndangered = isEndangered;
+		this.enclosureType = enclosureType;
+		this.habitat = habitat;
+	}
+
+	public boolean isAlive() {
+		return isAlive;
+	}
+
+	public void setAlive(boolean isAlive) {
+		this.isAlive = isAlive;
+	}
+
+	public boolean isEndangered() {
+		return isEndangered;
+	}
+
+	public void setEndangered(boolean isEndangered) {
+		this.isEndangered = isEndangered;
+	}
+
+	public String getEnclosureType() {
+		return enclosureType;
+	}
+
+	public void setEnclosureType(String enclosureType) {
+		this.enclosureType = enclosureType;
+	}
+
+	
+	public String getHabitat() {
+		return habitat;
+	}
+
+
+	public void setHabitat(String habitat) {
+		this.habitat = habitat;
+	}
+	
+}
